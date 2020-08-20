@@ -1,8 +1,8 @@
 //
 //  Data.swift
-//  Landmarks
+//  Complex Interface
 //
-//  Created by Matheus Andrade on 17/08/20.
+//  Created by Matheus Andrade on 20/08/20.
 //  Copyright © 2020 Matheus Andrade. All rights reserved.
 //
 
@@ -66,5 +66,6 @@ final class ImageStore {
         return images.index(forKey: name)!
     }
 }
+
 
 
