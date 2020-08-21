@@ -6,10 +6,10 @@
 //  Copyright © 2020 Matheus Andrade. All rights reserved.
 //
 
-import SwiftUI
 import Combine
+import SwiftUI
 
-final class UserData: ObservableObject  {
+final class UserData: ObservableObject {
     @Published var showFavoritesOnly = false
     @Published var landmarks = landmarkData
 }
